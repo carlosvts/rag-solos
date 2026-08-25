@@ -1,0 +1,12 @@
+# Dependências da TV Box. São só três, de propósito.
+#
+# A TV Box tem 2 GB de RAM e não roda nenhum modelo: ela captura áudio,
+# manda pela rede e toca o que volta. Wake word, STT, LLM e TTS ficam
+# TODOS no repositório do server (cerebro-cafe).
+#
+# pyaudio precisa dos headers do PortAudio antes de instalar:
+#     sudo apt install -y portaudio19-dev python3-dev alsa-utils
+
+pyaudio==0.2.14
+numpy<2
+python-dotenv==1.0.1

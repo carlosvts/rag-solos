@@ -1,0 +1,4 @@
+.last_known_pc_ip
+.env
+__pycache__/
+*.pyc
