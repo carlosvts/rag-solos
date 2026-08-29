@@ -2,3 +2,7 @@
 .env
 __pycache__/
 *.pyc
+<<<<<<< HEAD
+=======
+
+>>>>>>> a5c9bc4 (arquivo .csv TO api TO site)
